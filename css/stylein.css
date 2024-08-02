@@ -159,7 +159,7 @@ body{
     }
   }
   
-  .logos {
+  .carousel {
     overflow: hidden;
     width: 450px;
    
@@ -169,17 +169,17 @@ body{
   
   
  
-  .logos:hover .logos-slide {
+  .carousel:hover .carousel-slide {
     animation-play-state: paused;
   }
-  .logos-slide {
+  .carousel-slide {
 
     display: flex;
     animation: 20s slide infinite linear;
     
   }
   
-  .logos-slide div {
+  .carousel-slide div {
    
     height: 150px;
     
@@ -195,12 +195,12 @@ body{
     width: 800px;
     padding: 70px;
   }
-  .logos-slide  p {
+  .carousel-slide  p {
     text-align: center;
     font-weight: 600;
    width: 400px;
   }
-  .logos-slide  h2 {
+  .carousel-slide  h2 {
     text-align: center;
     font-weight: 600;
     color: #1b7941;
